@@ -10,25 +10,25 @@ codes and files/
 
 │── C++ code for BBR/
 
- │   └── tcp-bbr.cc # BBR implementation in C++
-│
+    └── tcp-bbr.cc # BBR implementation in C++
+
 │── otcl code and files/
 
-│   ├── tcp-reno-bbr.tcl # Main OTcl simulation script
+     ├── tcp-reno-bbr.tcl # Main OTcl simulation script
 
-│   ├── reno.tcl # Reno simulation script
+     ├── reno.tcl # Reno simulation script
 
-│   ├── project_BBR.nam # BBR network animation trace
+     ├── project_BBR.nam # BBR network animation trace
 
-│   ├── project_reno.nam # Reno network animation trace
+     ├── project_reno.nam # Reno network animation trace
 
-│   ├── project_trace_BBR.tr # BBR raw trace file
+     ├── project_trace_BBR.tr # BBR raw trace file
 
-│   └── projectTrace_reno.tr # Reno raw trace file
-│
+     └── projectTrace_reno.tr # Reno raw trace file
+
 │── python code/
 
-│   └── analyze5.py # Python script for analyzing results
+     └── analyze5.py # Python script for analyzing results
 
 ---
 
