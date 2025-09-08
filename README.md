@@ -8,23 +8,28 @@ The project leverages **NS-2 (Network Simulator 2)** for network experiments, cu
 ## 📂 Project Structure
 codes and files/
 │── C++ code for BBR/
+
 │ └── tcp-bbr.cc # BBR implementation in C++
 │
 │── otcl code and files/
+
 │ ├── tcp-reno-bbr.tcl # Main OTcl simulation script
+
 │ ├── reno.tcl # Reno simulation script
+
 │ ├── project_BBR.nam # BBR network animation trace
+
 │ ├── project_reno.nam # Reno network animation trace
+
 │ ├── project_trace_BBR.tr # BBR raw trace file
+
 │ └── projectTrace_reno.tr # Reno raw trace file
 │
 │── python code/
+
 │ └── analyze5.py # Python script for analyzing results
 │
 └── shayan daneshyar _ sadeghabedi_PJ2.pdf # Project report
-
-yaml
-Copy code
 
 ---
 
@@ -53,7 +58,8 @@ Copy code
 ```bash
 cd "codes and files/C++ code for BBR"
 ns make tcp-bbr.cc
-2. Run Simulations
+
+2. ** Run Simulations **
 bash
 Copy code
 cd "codes and files/otcl code and files"
@@ -63,7 +69,7 @@ ns reno.tcl
 
 # Run BBR simulation
 ns tcp-reno-bbr.tcl
-This will generate trace files (.tr) and animation files (.nam).
+- This will generate trace files (.tr) and animation files (.nam).
 
 3. Analyze Results
 bash
@@ -71,15 +77,10 @@ Copy code
 cd "codes and files/python code"
 python3 analyze5.py
 📊 Expected Output
-Trace files for each algorithm
+- Trace files for each algorithm
+- NAM visualizations showing network behavior
+- Plots/graphs comparing throughput, delay, and fairness between Reno and BBR
 
-NAM visualizations showing network behavior
-
-Plots/graphs comparing throughput, delay, and fairness between Reno and BBR
-
-📖 Report
-For detailed methodology, results, and discussion, please refer to:
-📄 shayan daneshyar _ sadeghabedi_PJ2.pdf
 
 🤝 Contributing
 Contributions are welcome!
